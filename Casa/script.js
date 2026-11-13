@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navLinks.classList.toggle('open');
     });
 
-    // Fecha o menu ao clicar em um link (mobile)
+    // Fecha o menu ao clicar em um link (no mobile)
     navLinks.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', () => {
             menuToggle.classList.remove('open');
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /* -----------------------------------------------------
-       3. Header com sombra ao rolar
+       3. Header com sombra ao scrollar
     ----------------------------------------------------- */
     const header = document.getElementById('header');
     window.addEventListener('scroll', () => {
