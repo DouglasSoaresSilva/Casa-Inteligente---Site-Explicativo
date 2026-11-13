@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
        6. Scroll reveal — animação simples ao entrar na viewport
     ----------------------------------------------------- */
     const revealTargets = document.querySelectorAll(
-        '.card, .hw-table, .accordion-item, .contato-info, .contato-form-wrapper'
+        '.diagram-figure, .card, .hw-table, .accordion-item, .contato-info, .contato-form-wrapper'
     );
     revealTargets.forEach(el => el.classList.add('reveal'));
 

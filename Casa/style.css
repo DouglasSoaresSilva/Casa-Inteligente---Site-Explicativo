@@ -322,6 +322,37 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ---------------------------------------------------------
+   DIAGRAMA ELETRÔNICO
+--------------------------------------------------------- */
+.diagram-figure {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.diagram-frame {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.diagram-frame img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-sm);
+    background: #fff;
+}
+
+.diagram-figure figcaption {
+    margin-top: 16px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.88rem;
+}
+
+/* ---------------------------------------------------------
    CARDS — funcionalidades
 --------------------------------------------------------- */
 .cards-grid {

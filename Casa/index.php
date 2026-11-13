@@ -106,6 +106,7 @@ $pinos_blynk = [
 
         <ul class="nav-links" id="navLinks">
             <li><a href="#hero" class="nav-link">Início</a></li>
+            <li><a href="#diagrama" class="nav-link">Diagrama</a></li>
             <li><a href="#funcionalidades" class="nav-link">Funcionalidades</a></li>
             <li><a href="#hardware" class="nav-link">Hardware</a></li>
             <li><a href="#seguranca" class="nav-link">Segurança</a></li>
@@ -155,8 +156,27 @@ $pinos_blynk = [
     </div>
 </section>
 
+<!-- ===================== DIAGRAMA ELETRÔNICO ===================== -->
+<section class="section" id="diagrama">
+    <div class="container">
+        <div class="section-head">
+            <span class="eyebrow">Montagem física</span>
+            <h2>Diagrama eletrônico</h2>
+        </div>
+
+        <figure class="diagram-figure">
+            <div class="diagram-frame">
+                <img src="diagrama-eletronico.png" alt="Diagrama de ligações do circuito: ESP32-S3, módulo RFID RC522, sensor PIR, buzzer e bateria 9V montados em protoboard" loading="lazy">
+            </div>
+            <figcaption>
+                Esquema de ligação do protótipo: ESP32-S3, leitor RFID RC522, sensor PIR, buzzer e fonte de 9V montados em protoboard.
+            </figcaption>
+        </figure>
+    </div>
+</section>
+
 <!-- ===================== FUNCIONALIDADES ===================== -->
-<section class="section" id="funcionalidades">
+<section class="section section-alt" id="funcionalidades">
     <div class="container">
         <div class="section-head">
             <span class="eyebrow">O que o sistema faz</span>
@@ -204,7 +224,7 @@ $pinos_blynk = [
 </section>
 
 <!-- ===================== HARDWARE ===================== -->
-<section class="section section-alt" id="hardware">
+<section class="section" id="hardware">
     <div class="container">
         <div class="section-head">
             <span class="eyebrow">Arquitetura física</span>
